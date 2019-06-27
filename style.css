@@ -1,15 +1,13 @@
-  
   /* Mobile Styles */
   @media only screen and (max-width: 425px) {
     body {
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 100vh;
-      background: url(hero.jpg) no-repeat 50% 50%;
       background-size: cover;
     }
-    .full-centered{
+
+    .full-centered {
       position: fixed;
       width: 256px;
       top: 50%;
@@ -18,6 +16,7 @@
       z-index: -1;
       transform: translate(-50%, -50%);
     }
+
     .hamburger {
       position: absolute;
       margin: 1em 1em 5em 2em;
@@ -33,91 +32,98 @@
       right: 0%;
       z-index: 5;
     }
+
     .hamburger:focus {
       outline: none;
     }
-  .hamburger.active .line {
+
+    .hamburger.active .line {
       transition: all 0.8s ease-in-out;
     }
-  .hamburger.active .line:nth-child(1) {
+
+    .hamburger.active .line:nth-child(1) {
       width: 100%;
       margin-top: -3px;
       transform: translateY(400%) rotate(45deg);
     }
-  .hamburger.active .line:nth-child(2) {
+
+    .hamburger.active .line:nth-child(2) {
       transform: translateY(-70%) rotate(-45deg);
       margin-top: 3px;
       width: 100%;
     }
-  .hamburger.active .line:nth-child(3) {
+
+    .hamburger.active .line:nth-child(3) {
       width: 100%;
       opacity: 0;
     }
-  .hamburger .line {
+
+    .hamburger .line {
       transition: all 0.2s ease-in-out;
       height: 3px;
       background: #ee2200;
     }
-  .hamburger .line:nth-child(1) {
+
+    .hamburger .line:nth-child(1) {
       width: 100%;
     }
+
     .hamburger .line:nth-child(2) {
       width: 80%;
       margin-left: 13px;
     }
+
     .hamburger .line:nth-child(3) {
       width: 50%;
       margin-left: 20px;
     }
 
-    .menu{
+    .menu {
       z-index: 0;
       position: absolute;
       height: 100vh;
       width: 100%;
       background-color: #fff;
-      top: -100%; 
+      top: -100%;
     }
 
-  .list{
+    .list {
       padding: 4em 0 0 2em;
       text-align: left;
     }
 
-   .list ul{
+    .list ul {
       list-style: none;
     }
 
-   .list ul li:first-child{
+    .list ul li:first-child {
       height: 100px;
       width: 150px;
     }
 
-   .list ul li:not(:first-child){
+    .list ul li:not(:first-child) {
       color: #ee2200;
       font-size: 42px;
     }
 
-   .list ul li a{
+    .list ul li a {
       text-decoration: none;
       color: #ee2200;
       font-family: 'Poppins', sans-serif;
       letter-spacing: 2px;
     }
   }
-  
+
   /* Tablet Styles */
   @media only screen and (min-width: 426px) and (max-width: 768px) {
     body {
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 100vh;
-      background: url(hero.jpg) no-repeat 50% 50%;
       background-size: cover;
     }
 
-    .full-centered{
+    .full-centered {
       position: fixed;
       width: 256px;
       top: 50%;
@@ -126,7 +132,7 @@
       z-index: -1;
       transform: translate(-50%, -50%);
     }
-    
+
     .hamburger {
       position: absolute;
       margin: 1em 1em 5em 2em;
@@ -142,43 +148,52 @@
       right: 0%;
       z-index: 3;
     }
+
     .hamburger:focus {
       outline: none;
     }
-  .hamburger.active .line {
+
+    .hamburger.active .line {
       transition: all 0.8s ease-in-out;
     }
-  .hamburger.active .line:nth-child(1) {
+
+    .hamburger.active .line:nth-child(1) {
       width: 90%;
       transform: translateY(400%) rotate(45deg);
     }
-  .hamburger.active .line:nth-child(2) {
+
+    .hamburger.active .line:nth-child(2) {
       transform: translateY(-100%) rotate(-45deg);
       margin-left: 3px;
       width: 100%;
     }
-  .hamburger.active .line:nth-child(3) {
+
+    .hamburger.active .line:nth-child(3) {
       width: 100%;
       opacity: 0;
     }
-  .hamburger .line {
+
+    .hamburger .line {
       transition: all 0.2s ease-in-out;
       height: 3px;
       background: #ee2200;
     }
-  .hamburger .line:nth-child(1) {
+
+    .hamburger .line:nth-child(1) {
       width: 100%;
     }
+
     .hamburger .line:nth-child(2) {
       width: 70%;
       margin-left: 18px;
     }
+
     .hamburger .line:nth-child(3) {
       width: 40%;
       margin-left: 35px;
     }
 
-     .menu{
+    .menu {
       z-index: 0;
       position: absolute;
       height: 100vh;
@@ -187,33 +202,33 @@
       top: -100%;
     }
 
-   .list{
+    .list {
       padding: 8em 0 0 4em;
       text-align: left;
     }
 
-   .list ul{
+    .list ul {
       list-style: none;
     }
 
-   .list ul li:first-child{
+    .list ul li:first-child {
       height: 100px;
       width: 150px;
     }
 
-   .list ul li:not(:first-child){
+    .list ul li:not(:first-child) {
       color: #ee2200;
       font-size: 42px;
     }
 
-   .list ul li a{
+    .list ul li a {
       text-decoration: none;
       color: #ee2200;
       font-family: 'Poppins', sans-serif;
       letter-spacing: 2px;
     }
   }
-  
+
   /* Desktop Styles */
   @media only screen and (min-width: 769px) {
     body {
@@ -221,9 +236,9 @@
       padding: 0;
       width: 100%;
       height: 100vh;
-      background: url(hero.jpg) no-repeat 50% 50%;
       background-size: cover;
     }
+
     /* h1{
       position: absolute;
       top: 46%;
@@ -236,7 +251,7 @@
       letter-spacing: 2px;
     } */
 
-    .full-centered{
+    .full-centered {
       position: fixed;
       width: 256px;
       top: 50%;
@@ -260,43 +275,52 @@
       flex-wrap: wrap;
       right: 0%;
     }
+
     .hamburger:focus {
       outline: none;
     }
-  .hamburger.active .line {
+
+    .hamburger.active .line {
       transition: all 0.8s ease-in-out;
     }
-  .hamburger.active .line:nth-child(1) {
+
+    .hamburger.active .line:nth-child(1) {
       width: 90%;
       transform: translateY(400%) rotate(45deg);
     }
-  .hamburger.active .line:nth-child(2) {
+
+    .hamburger.active .line:nth-child(2) {
       transform: translateY(-100%) rotate(-45deg);
       margin-left: 3px;
       width: 100%;
     }
-  .hamburger.active .line:nth-child(3) {
+
+    .hamburger.active .line:nth-child(3) {
       width: 100%;
       opacity: 0;
     }
-  .hamburger .line {
+
+    .hamburger .line {
       transition: all 0.2s ease-in-out;
       height: 3px;
       background: #ee2200;
     }
-  .hamburger .line:nth-child(1) {
+
+    .hamburger .line:nth-child(1) {
       width: 100%;
     }
+
     .hamburger .line:nth-child(2) {
       width: 70%;
       margin-left: 18px;
     }
+
     .hamburger .line:nth-child(3) {
       width: 40%;
       margin-left: 35px;
     }
 
-     .menu{
+    .menu {
       z-index: -1;
       position: absolute;
       height: 100vh;
@@ -305,26 +329,26 @@
       top: -100%;
     }
 
-   .list{
+    .list {
       padding: 8em 0 0 4em;
       text-align: left;
     }
 
-   .list ul{
+    .list ul {
       list-style: none;
     }
 
-   .list ul li:first-child{
+    .list ul li:first-child {
       height: 100px;
       width: 150px;
     }
 
-   .list ul li:not(:first-child){
+    .list ul li:not(:first-child) {
       color: #ee2200;
       font-size: 42px;
     }
 
-   .list ul li a{
+    .list ul li a {
       text-decoration: none;
       color: #ee2200;
       font-family: 'Poppins', sans-serif;
@@ -332,6 +356,9 @@
     }
   }
 
+  .divider-20vh {
+    height: 20vh;
+  }
 
 
 
